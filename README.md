@@ -9,7 +9,7 @@
  $ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_kinetic.sh
  $ chmod 755 ./install_ros_kinetic.sh 
  $ bash ./install_ros_kinetic.sh
-### 1.02: installing ROS Kinetic packages using : 
+### 1.02: installing ROS Kinetic packages : 
 $ sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-joy \
  ros-kinetic-teleop-twist-keyboard ros-kinetic-laser-proc \
  ros-kinetic-rgbd-launch ros-kinetic-depthimage-to-laserscan \
@@ -25,7 +25,7 @@ $ sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-joy \
   $ sudo apt-get install ros-kinetic-turtlebot3
 ## 3: Using steps below to install the simulation  packages
 
-### 3.01: install the simulation using : 
+### 3.01: install the simulation  : 
  $ cd ~/catkin_ws/src/
  $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
  $ cd ~/catkin_ws && catkin_make
