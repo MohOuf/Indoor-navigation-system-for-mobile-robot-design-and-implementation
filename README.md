@@ -3,7 +3,7 @@
 **Using ubuntu 16.04 and ROS kinetic **
 
 
-### 1.01: Installing ROS kinetic using : 
+### 1.01: Installing ROS kinetic : 
  $ sudo apt-get update
  $ sudo apt-get upgrade
  $ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_kinetic.sh
